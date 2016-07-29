@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.0/themes/ui-darkness/jquery-ui.css">
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src="js/task.js"></script>
+    <link rel="stylesheet" href="css/main-style.css">
+    <title>Планировщик простейший</title>
+</head>
+
+<body>
+    <header>
+        <ul class=" nav clear">
+            <li><a href="">страница1</a></li>
+            <li><a href="" id="reg">Регистрация</a>
+              <div class="sign_up" id="sign_up">
+            <form action="">
+                <div class="sign_up_input_container">
+                    <input type="email" name="email" id="username_primary" required placeholder="Логин">
+               
+                    <input type="password" name="password_prime" id="password_prime" required placeholder="Пароль">
+                 
+                    <input type="password" name="password_repeat" id="password_repeat" required placeholder="Повтор пароля">
+               
+                    <input type="submit" value="Зарегистрироваться">
+                   
+                </div>
+            </form>
+        </div> 
+            </li>
+            <li><a href="" id="login">Авторизация</a>
+             <div class="sign_in" id="sign_in">
+                    <form action="">
+                            <input type="text" id="username" required placeholder="Логин">
+                            <input type="text" id="password" type="password" required placeholder="Пароль">
+                            <div class="sign_in__btn_container"><input type="submit" value="Войти">
+                            <label for="">Запомнить меня<input type="checkbox" checked></label></div>
+                            
+                    </form>
+                </div>
+            </li>
+        </ul>
+        <h2>Самый простейший планировщик задач</h2>
+    </header>
+    <section class="main-container">
+        <div class="buttons-nav">
+            <button class="btn" id="add-task">Добавление новой задачи</button>
+            <button class="btn" id="remove-task"><i class="fa fa-shopping-bag" aria-hidden="true"></i>Удаление ВСЕХ задач</button>
+        </div>
+        <div class="task-container">
+            <div>
+                <h3>Текущие задания</h3>
+                <ul class="sort" id="new-check">
+
+                </ul>
+            </div>
+            <div>
+                <h3>Выполненные задания</h3>
+                <ul class="sort" id="old-check">
+                </ul>
+            </div>
+        </div>
+        <div class="" id="new-task" title="Добавление задачи">
+            <form action="">
+                <p>
+                    <label for="task">Название</label>
+                    <input type="text" id="task" name="task">
+                </p>
+            </form>
+        </div>
+        <div class="" id="confirm-del" title="Удалить?"></div>
+    </section>
+    <footer>
+        <p>Copyright 2013, Greek Text Generator, Inc. Suspendisse vitae quam lorem, in tempus velit. Sed vitae ante quis felis fringilla condimentum. Aenean orci ante, venenatis non adipiscing vitae, fringilla et neque. In pharetra, eros imperdiet luctus imperdiet, nunc sem pharetra mi, vel faucibus elit risus id tortor.</p>
+        <p>Contact: <a href="mailto:nobody@nowhere.com">e-mail@here.com</a></p>
+    </footer>
+</body>
+
+</html>
