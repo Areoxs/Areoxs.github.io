@@ -143,7 +143,13 @@ Logo+nav
     -ms-flex-pack: center;
     justify-content: center;
 }
-
+.main_nav__btn{
+    color:#fff;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+    font-size:28px;
+}
 .main-nav_itm {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -477,7 +483,7 @@ footer .btn_group {
     }
 }
 
-@media screen and (max-width:300px) {
+@media only screen and (max-width : 480px) {
     .wrapper_main {
         padding: 25px 10px 5px;
     }
