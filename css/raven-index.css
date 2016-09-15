@@ -1,13 +1,21 @@
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .main-header {
     width: 100%;
-    background: url(images/Layer-22.png) no-repeat 100%;
+    background: url(../images/bridge.png) no-repeat 100%;
 }
+
 
 /*******************
 
 large header
 
 ********************/
+
 .content_large {
     margin: 150px auto;
     display: -webkit-box;
@@ -24,10 +32,12 @@ large header
     -ms-flex-direction: column;
     flex-direction: column;
 }
+
 .content_large h3 {
     font-size: 48px;
     text-transform: uppercase;
 }
+
 .content_large p {
     margin-top: -35px;
     font-size: 24px;
@@ -91,9 +101,12 @@ hover effect
     top: 0%;
     opacity: 1;
 }
+
+
 /*content*/
+
 .content {
-    margin-top:40px;
+    margin-top: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -129,6 +142,7 @@ hover effect
     box-shadow: 2px 2px 3px -3px #000, -2px -2px 3px -3px #000;
 }
 
+
 /*sprait*/
 
 .Big-Truck,
@@ -141,12 +155,10 @@ hover effect
 .Storage-box {
     display: block;
     margin: 60px auto 25px auto;
-    background: url(images/sprites.png) no-repeat;
+    background: url(../images/iconb_sprt.png) no-repeat;
     -webkit-transition: all .1s linear;
     transition: all .1s linear;
 }
-
-
 
 .Big-Truck {
     background-position: 0 -5px;
@@ -195,6 +207,7 @@ hover effect
     width: 40px;
     height: 40px;
 }
+
 .content_item a:hover,
 .content_item a:focus {
     -webkit-transition: all .2s .1s;
@@ -203,7 +216,9 @@ hover effect
     transform: scale(1.05);
 }
 
+
 /*end sprait*/
+
 
 /***************
 
@@ -212,7 +227,7 @@ partners
 ****************/
 
 .partners {
-    margin-top:3em;
+    margin-top: 3em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -229,8 +244,9 @@ partners
 .partners_itm {
     padding: 0 30px;
 }
-/*media*/
 
+
+/*media*/
 
 @media screen and (max-width:850px) {
     .content_large {
@@ -254,7 +270,6 @@ partners
 }
 
 @media screen and (max-width:600px) {
-
     .content_large {
         margin: 20px auto;
     }
@@ -266,7 +281,4 @@ partners
         margin: auto;
         font-size: 16px;
     }
-
 }
-
-
