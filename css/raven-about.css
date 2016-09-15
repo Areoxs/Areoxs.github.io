@@ -1,21 +1,23 @@
 /*content*/
+
 .content {
-    margin-top:40px;
+    margin-top: 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
-   -webkit-box-align: center;
-   -ms-flex-align: center;
-   align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .content img {
     width: 372px;
     margin-right: 30px;
 }
+
 .content article {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -26,27 +28,31 @@
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     flex-direction: column;
-   -ms-flex-item-align: stretch;
-   align-self: stretch;
-   
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
 }
-.content article p{
-     color: #868686;
+
+.content article p {
+    color: #868686;
     font: 400 16px/30px OpenSans;
-     text-align: left;
+    text-align: left;
     white-space: pre-wrap;
 }
-.content article p:last-child{
-    margin-top:3em;
-    font-style:italic;
+
+.content article p:last-child {
+    margin-top: 3em;
+    font-style: italic;
 }
+
+
 /*services*/
-.service{
-    width:100%;
-    margin-top:30px;
-    display:-webkit-box;
-    display:-ms-flexbox;
-    display:flex;
+
+.service {
+    width: 100%;
+    margin-top: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
     justify-content: space-between;
@@ -56,53 +62,63 @@
     -ms-flex-align: center;
     align-items: center;
 }
-.service_itm{
-    width:240px;
-    height:240px;
-    margin-bottom:30px;
-    background-color:#13a9dc;
+
+.service_itm {
+    width: 240px;
+    height: 240px;
+    margin-bottom: 30px;
+    background-color: #13a9dc;
     text-transform: uppercase;
     font: 600 14px OpenSans;
     text-align: center;
-   
 }
 
-.service_itm a:focus,.service_itm a:hover{
-     -webkit-transition: all .2s .1s;
+.service_itm a:focus,
+.service_itm a:hover {
+    -webkit-transition: all .2s .1s;
     transition: all .2s .1s;
-   -webkit-transform: scale(1.12);
-   transform: scale(1.12);
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
 }
+
+
 /*  start slider*/
-.call,.crown,.table,.shield-large{
-      display: block;
+
+.call,
+.crown,
+.table,
+.shield-large {
+    display: block;
     margin: 80px auto 25px auto;
-   background:url(images/sprites2.png) no-repeat;
+    background: url(../images/iconw_sprt.png) no-repeat;
 }
-.call{
-background-position: -100px 0;
-width: 55px;
-height: 52px;
+
+.call {
+    background-position: -100px 0;
+    width: 55px;
+    height: 52px;
 }
-.crown{
-background-position: -167px -3px;
-width: 55px;
-height: 52px;
+
+.crown {
+    background-position: -167px -3px;
+    width: 55px;
+    height: 52px;
 }
-.shield-large{
-background-position: 3px -3px;
-width: 55px;
-height: 52px;
+
+.shield-large {
+    background-position: 3px -3px;
+    width: 55px;
+    height: 52px;
 }
-.table{
-background-position: -46px -1px;
-width: 55px;
-height: 52px;
+
+.table {
+    background-position: -46px -1px;
+    width: 55px;
+    height: 52px;
 }
-/* end slider*/
 
 .partners {
-     margin-top:3em;
+    margin-top: 3em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -121,12 +137,9 @@ height: 52px;
 }
 
 
-
 /*media*/
 
-
 @media screen and (max-width:850px) {
-
     .content {
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
@@ -142,13 +155,12 @@ height: 52px;
         width: 270px;
         margin-right: 0;
     }
-    .service{
-        -webkit-box-pack:center;
-        -ms-flex-pack:center;
-        justify-content:center;
+    .service {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
     }
-    .service_itm{
-        margin:20px;
+    .service_itm {
+        margin: 20px;
     }
 }
-

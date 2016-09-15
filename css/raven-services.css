@@ -53,7 +53,7 @@
 .Storage-box {
     display: block;
     margin: 60px auto 25px auto;
-    background: url(images/sprites.png) no-repeat;
+    background: url(../images/iconb_sprt.png) no-repeat;
 }
 
 .Big-Truck {
@@ -165,7 +165,7 @@
 .shield-large {
     display: block;
     margin: 80px auto 25px auto;
-    background: url(images/sprites2.png) no-repeat;
+    background: url(../images/iconw_sprt.png) no-repeat;
 }
 
 .call {
