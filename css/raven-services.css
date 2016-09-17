@@ -127,7 +127,7 @@
     display: flex;
     -webkit-box-pack: justify;
     -ms-flex-pack: justify;
-    justify-content: space-between;
+    justify-content: space-around;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-align: center;
@@ -157,7 +157,7 @@
 }
 
 
-/*  start slider*/
+/*  start sprait*/
 
 .call,
 .crown,
@@ -193,7 +193,7 @@
 }
 
 
-/* end slider*/
+/* end sprait*/
 
 .service_itm a:focus,
 .service_itm a:hover {
@@ -202,7 +202,12 @@
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
 }
+/*slider*/
 
+.project_content .slider_itm img{
+     max-width:180px;
+    max-height:180px;
+}
 
 /*media*/
 
@@ -229,5 +234,22 @@
     }
     .service_itm {
         margin: 20px;
+    }
+    .content_itm{
+        height:280px;
+        -webkit-box-flex:1;
+        -ms-flex:1 1 280px;
+        flex:1 1 280px;
+        padding:10px;
+    }
+    .Big-Truck,
+    .CD,
+    .Compass-tool,
+    .Syringe,
+    .Truck,
+    .Pulse,
+    .Shield,
+    .Storage-box{
+        margin:20px auto;
     }
 }
