@@ -144,11 +144,13 @@ Logo+nav
     justify-content: center;
 }
 .main_nav__btn{
+    display:none;
     color:#fff;
     background-color: transparent;
     border:none;
     cursor: pointer;
     font-size:28px;
+    
 }
 .main-nav_itm {
     display: -webkit-box;
