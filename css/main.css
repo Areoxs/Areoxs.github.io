@@ -150,7 +150,6 @@ Logo+nav
     border:none;
     cursor: pointer;
     font-size:28px;
-    
 }
 .main-nav_itm {
     display: -webkit-box;
@@ -372,19 +371,19 @@ button
     color:#fff
 }
 .slider__container{
+  margin:70px auto;
   position: relative;
 }
 .slider_itm img{
     max-width:130px;
     max-height:92px;
     display:block;
-    margin:20px auto;
+    margin:0 auto 30px;
 }
 
 .next_btn,.prev_btn{
     position: absolute;
-      top:70px;
-    font-size:32px;
+    top:70px;
     z-index:7;
     cursor:pointer;
     color:#868686;
@@ -394,15 +393,32 @@ button
     color:#fff;
 }
 .next_btn{
-   right:0;
+   right:-10px;
 }
 .prev_btn{
-   left:0;
+   left:-10px;
 }
 /*end slider*/
 
+/*partners*/
+.partners {
+    margin:3em 0 1em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+.partners_itm {
+    padding: 0 30px;
+}
 /*frame*/
-
 iframe {
     width: 100%;
     height: 300px;
