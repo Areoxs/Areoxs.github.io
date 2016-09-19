@@ -156,51 +156,49 @@
     background-color: transparent;
 }
 
-
-/*  start sprait*/
-
-.call,
-.crown,
-.table,
-.shield-large {
+.service_itm__link{
+    display:block;
+    margin:80px auto 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all .1s linear;
+    color:#fff;
+}
+/*sprait*/
+.service_itm__link span{
     display: block;
-    margin: 80px auto 25px auto;
+    margin:0 auto;
     background: url(../images/iconw_sprt.png) no-repeat;
 }
-
-.call {
-    background-position: -100px 0;
+.service_itm:nth-child(1) .service_itm__link span:first-child{
+     background-position: 3px -3px;
     width: 55px;
     height: 52px;
 }
-
-.crown {
-    background-position: -167px -3px;
-    width: 55px;
-    height: 52px;
-}
-
-.shield-large {
-    background-position: 3px -3px;
-    width: 55px;
-    height: 52px;
-}
-
-.table {
+.service_itm:nth-child(2) .service_itm__link span:first-child{
     background-position: -46px -1px;
     width: 55px;
     height: 52px;
 }
-
-
-/* end sprait*/
-
+.service_itm:nth-child(3) .service_itm__link span:first-child{
+    background-position: -100px 0;
+    width: 55px;
+    height: 52px;
+}
+.service_itm:nth-child(4) .service_itm__link span:first-child{
+    background-position: -167px -3px;
+    width: 55px;
+    height: 52px;
+}
+/*end sprait*/
+.service_itm__link h3{
+    font: 600 14px OpenSans;
+}
 .service_itm a:focus,
 .service_itm a:hover {
-    -webkit-transition: all .2s .1s;
-    transition: all .2s .1s;
     -webkit-transform: scale(1.12);
     transform: scale(1.12);
+    text-decoration: underline;
 }
 /*slider*/
 
