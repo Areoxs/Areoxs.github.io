@@ -20,6 +20,7 @@ body {
     -webkit-box-flex: 1;
     -ms-flex: auto;
     flex: auto;
+    margin:0;
     color: #fff;
     font: 700 15px / 22.393px OpenSansRegular, Arial, Verdana, serif;
 }
